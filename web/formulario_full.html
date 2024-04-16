@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--colocar el archivo css-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="caja">
+        <h1 class="texto">Registro</h1>
+        <form action="">
+            <input type="text" name="nombre" id="nombre" class="cajatexto" placeholder="Nombre">
+            <input type="text" name="Apellidos" id="Apellidos" class="cajatexto" placeholder="Apellidos">
+            <label for="fecha" class="label">Fecha Nacimiento</label>
+            <input type="date" name="fecha" id="fecha" class="cajatexto">
+            <button onclick="recuperar();"class="btn">Registrar</button>
+        </form>
+    </div>
+    <script>
+        function recuperar(){
+            var nom = document.getElementById("nombre").value;
+            alert("Hola:"+nom);
+            var ape= document.getElementById("Apellidos").value;
+            alert("¿como estas?:"+ape);
+            var dat= document.getElementById("fecha").value;
+            alert("Hola:"+fecha);
+        }
+    </script>
