@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="css/main3.css"
+</head>
+<body>
+  <div class="container">
+    <h1>Cuestionario</h1>
+    <form id="quizForm">
+        <div class="question">
+            <div id="question1" class="question">
+            <p>Pregunta 1: ¿Cual es la capital de Francia?</p>
+            <input type="radio" name="q1" value="Paris"> Paris<br>
+            <input type="radio" name="q1" value="Londres"> Londres<br>
+            <input type="radio" name="q1" value="Roma"> Roma<br>
+            
+            </div>
+            <div id="question2" class="question">
+            <p>Pregunta 2: ¿ Quien escribio "Don Quijote de la mancha"?</p>
+            <input type="radio" name="q2" value="Cervantes"> Cervantes<br>
+            <input type="radio" name="q2" value="Shakespeare"> Shakespeare<br>
+            <input type="radio" name="q2" value="Heminway"> Heminway<br>
+            </div>
+                <div id="question3" class="question">
+                    <p>Pregunta 3: ¿Cual es la formual cientifica del agua?</p>
+                    <input type="radio" name="q3" value="H30"> H30<br>
+                    <input type="radio" name="q3" value="HC3"> HC3<br>
+                    <input type="radio" name="q3" value="H2O"> H2O<br>
+                    </div>
+                    <div id="question4" class="question">
+                        <p>Pregunta 4: ¿Quien fue el primer presidente de Mexico?</p>
+                        <input type="radio" name="q4" value="Vicente fox"> Vicente fox<br>
+                        <input type="radio" name="q4" value="Benito Juarez"> Benito Juarez<br>
+                        <input type="radio" name="q4" value="Guadalupe victoria"> Guadalupe victoria<br>
+                        </div>
+                        <div id="question5" class="question">
+                            <p>Pregunta 5: ¿"Cual es el lado mas largo de un triangulo"?</p>
+                            <input type="radio" name="q5" value="Hipotenusa">Hipotenusa<br>
+                            <input type="radio" name="q5" value="Cateto adyacente">Cateto adyacente<br>
+                            <input type="radio" name="q5" value="Cateto opuesto">Cateto opuesto<br>
+                            </div>
+        </div>
+        <button onclick="checkAnswers()">verificar respuestas </button>   
+</div>
+
+<script src="js/main4.js"></script>
+</body>
+</html>
